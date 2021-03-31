@@ -12,6 +12,7 @@ apt-get install qt-sdk
 apt-get install libqrencode3
 apt-get install libqrencode-dev
 apt-get install qrencode
+apt install libssl1.0 libssl1.0-dev
 qmake-qt4 "USE_QRCODE=1"
 make
 ./mexcoin-qt
